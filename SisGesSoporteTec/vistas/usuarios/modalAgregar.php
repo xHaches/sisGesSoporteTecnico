@@ -2,7 +2,7 @@
 <form id="frmAgregarUsuario" method="POST" onsubmit="return agregarNuevoUsuario()">
     <div class="modal fade" id="modalAgregarUsuarios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content bg-dark text-white">
+          <div class="modal-content bg-primary text-white">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Agregar Nuevo Usuario</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">

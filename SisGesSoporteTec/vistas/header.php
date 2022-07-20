@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top mb-5 shadow"> 
             <div class="container">
                 <a class="navbar-brand" href="home.php">
-                    <img src="../public/img/soporte_icon.png" width="30%">
+                    <img src="../public/img/imagenLogin.png" width="17%" >
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">        
@@ -68,15 +68,15 @@
                         <?php } ?>
                         <!-- Menu drop down-->
                         <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#900C3F">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#fff">
                             <span class="fa-solid fa-clipboard-user"></span> Usuario: <?php echo $_SESSION['usuario']['nombre'];?> </a>
-                            <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item bg-dark text-white" href="#" data-toggle="modal" data-target="#modalActualizarDatosPersonales" 
+                            <div class="dropdown-menu bg-primary text-white" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item bg-primary text-white" href="#" data-toggle="modal" data-target="#modalActualizarDatosPersonales" 
                                     onclick ="obtenerDatosPersonalesInicio('<?php echo $_SESSION['usuario']['id']; ?>')">
                                   <span class="fa-solid fa-pen-to-square"></span>  Editar datos
                                 </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item bg-dark" href="../procesos/usuarios/login/salir.php" style="color:#900C3F">
+                            <a class="dropdown-item bg-primary" href="../procesos/usuarios/login/salir.php" style="color:#fff">
                                 <span class="fa-solid fa-right-from-bracket"></span> Salir</a>
                             </div>
                         </li>
